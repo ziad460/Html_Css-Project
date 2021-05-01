@@ -1,0 +1,562 @@
+*
+{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body
+{
+    background-color: rgb(239, 247, 251);
+    z-index: 2;
+}
+header
+{
+    width: 100%;
+    height: 80px;
+    background-color: #063146;
+    position: fixed;
+    z-index: 1;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+header nav 
+{
+    padding-top: 10px;
+}
+header nav ul
+{
+    list-style-type: none;
+}
+header nav ul li
+{
+    float: left;
+    padding-left: 5%;
+    padding-top: 2.9%;
+}
+header nav ul li a
+{
+    font-size: 17px;
+    font-family: cursive;
+    color: rgba(255, 255, 255, 0.5);
+}
+header nav ul li a:hover
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255);
+}
+header nav ul li a img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+header section 
+{
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: cursive;
+}
+.home
+{
+    width:100%;
+    height: 700px;
+    background-image: url("../images/homeimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home div
+{
+    width: 40%;
+    position: relative;
+    top: 50%;
+    margin: auto;
+    background-color: #ffffff;   
+    opacity: 0.6;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    transition: all ease-in-out 0.4s;
+    text-align: center;
+    padding: 10px 0 30px 0;
+}
+.home div h1
+{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 46px;
+}
+.home div button
+{
+    width: 150px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 2px;
+}
+.home div:hover
+{
+    opacity: 1;
+}
+.home div button:hover
+{
+    box-shadow: 2px 2px 2px black;
+}
+.offer
+{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(190, 190, 190);
+    text-align: center;
+    padding-top: 3px;
+}
+.offer p
+{
+    letter-spacing: 5px;
+}
+.collection
+{
+    width: 100%;
+    background-color: rgba(239, 247, 251,1);
+    padding: 5% 0;
+}
+.collection>h1
+{
+    text-align: center;
+    letter-spacing: 20px;
+    font-family: cursive;
+}
+hr
+{
+    width: 40px;
+    background-color: black;
+}
+.collection>p
+{
+    padding-top: 30px;
+    letter-spacing: 10px;
+    font-family: Tahoma;
+    color: rgba(0, 0, 0,0.7);
+    font-size: 18px;
+    text-align: center;
+}
+.container
+{
+    justify-content: center;
+}
+.card
+{
+    border: 0;
+    height: 400px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.card img
+{
+    width: 100%;
+    height: 70%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.under-card
+{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.under-card>div
+{
+    float: left;
+    padding: 20px;
+}
+.under-card>a
+{
+    position: relative;
+    top: 50px;
+    font-weight: bold;
+}
+.under-card>a:hover
+{
+    text-decoration: none;
+}
+/* -----------------------------------------Start Footer------------------------------------*/
+footer
+{
+    width: 100%;
+    background-color: #063146;
+    padding: 30px 0 0px 0;
+}
+.footer-left 
+{
+    color: rgba(250,250,250,0.7);   
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size: 13px;
+    text-align: center;
+    padding: 2% 0;
+}
+.footer-right
+{
+    color: rgba(250,250,250,0.7);   
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size: 13px;
+    padding: 2% 0;
+    text-align: center;
+}
+.footer-middle
+{
+    color: rgba(250,250,250,0.7);   
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size: 13px;
+    text-align: center;
+    padding: 2% 0;
+}
+.footer-middle > input
+{
+    width: 70%;
+    height: 30px;
+    background-color: rgba(250,250,250,0.3);
+    color: white;
+    border: 0;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.footer-middle > input::placeholder
+{
+    color: white;
+    font-size: 14px;
+}
+.footer-middle > input:hover
+{
+    background-color: rgba(250,250,250,0.5);
+}
+.footer-middle > button
+{
+    width: 70%;
+    height: 30px;
+    background-color: rgba(228, 227, 227,0.9);
+    color: rgb(0, 0, 0,0.5);
+    font-size: large;
+    border: 0;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+.footer-middle > button:hover
+{
+    background-color: white;
+}
+.copyright
+{
+    margin-top: 5%;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2% 0;
+}
+.copyright a
+{
+    text-decoration: underline;
+}
+.footer-left ul li
+{
+    display: inline;
+}
+.footer-left ul li a img
+{
+    width: 30px;
+}
+.footer-right p 
+{
+    margin: 0;
+    line-height: 24px;
+}
+.footer-right p:nth-child(2)
+{
+    font-family: cursive;
+    color: white;
+    font-size: 13px;
+}
+.footer-right p:nth-child(3) 
+{
+    font-family: cursive;
+    color: white;
+    font-size: 13px;
+}
+/* -----------------------------------------End Footer------------------------------------*/
+
+/* ------------------------------------------Page 2 ------------------------------------- */
+.page-content
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.filtering
+{
+    width: 25%;
+    padding: 7% 1% 3% 0%;
+}
+.filtering-containter
+{
+    width: 70%;
+    margin-left: 30%;
+    height: auto;
+}
+.filtering-containter div
+{
+    border-bottom: 1px solid rgba(83, 83, 83,0.3);
+    padding-bottom: 12px;
+    height: auto;
+    width: 100%;
+}
+.filtering-containter div p
+{
+    color: rgb(83, 83, 83);
+    font-size: 25px;
+}
+.filtering-containter div a
+{
+    font-size: 18px;
+    display: block;
+}
+.filtering-containter div a:hover
+{
+    text-decoration: none;
+    font-weight: bold;
+}
+.shop-content
+{
+    width: 75%;
+    height: auto;
+}
+.logo
+{
+    width: 100%;
+    height: 100px;
+    padding-top: 40px;
+}
+.logo h1
+{
+    text-align: center;
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.shop-content div:nth-child(2)
+{
+    width: 100%;
+    display: flex;
+}
+.shop-content div:nth-child(2) form
+{
+    width: 60%;
+    padding-left: 5%;
+}
+.shop-content div:nth-child(2) form input:first-of-type
+{
+    width: 50%;
+    height: 35px;
+    border-radius: 5px;
+}
+.shop-content div:nth-child(2) form input:nth-child(2)
+{
+    width: 20%;
+    height: 34px;
+    background-color: rgba(10, 82, 117,0.9);
+    color: white;
+    font-family: Arial;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+.shop-content div:nth-child(2) select
+{
+    width: 23%;
+    height: 32px;
+    color: rgba(83, 83, 83,0.8);
+    font-size: large;
+    border-radius: 2px;
+    margin: auto;
+}
+.container-content
+{
+    width: 100%;
+    height: 100%;
+    padding: 3% 3% 3% 3%;
+}
+ .shop-card
+{
+    height: 300px;
+    border: 0;
+    margin: 20px auto;
+}
+.shop-card img
+{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+}
+.under-shop-card
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.under-shop-card a
+{
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.under-shop-card a:hover
+{
+    text-decoration: none;
+}
+.under-shop-card p
+{
+    font-weight: bold;
+    font-size: large;
+}
+.under-shop-card p span
+{
+    font-size: 15px;
+    color: rgb(165, 164, 164);
+    text-decoration: line-through;
+}
+.under-shop-card p p
+{
+    font-size: 15px;
+    color: rgb(165, 164, 164);
+}
+.customercare-content
+{
+    width: 100%;
+    height: auto;
+}
+.customercare-content>section
+{
+    width: 70%;
+    margin: auto;
+    border-bottom: 1px solid rgb(83, 83, 83);
+    padding: 5% 3% 3% 3%;
+}
+.customercare-content section:first-of-type h2
+{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.customercare-content section:first-of-type p
+{
+    font-family: Arial;
+    font-size: 15px;
+    color: rgb(83, 83, 83);
+    text-align: center;
+}
+.customercare-content section:nth-child(2) 
+{
+    display: flex;
+}
+.customercare-content section:nth-child(2) form
+{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.customercare-content section:nth-child(2) form input
+{
+    margin-top: 1%;
+}
+.customercare-content section:nth-child(2) form input::placeholder
+{
+    color: rgb(83, 83, 83);
+}
+.customercare-content section:nth-child(2) form textarea
+{
+    margin-top: 1%;
+}
+.customercare-content section:nth-child(2) form input[type=submit]
+{
+    width: 40%;
+    background-color: rgba(0, 0, 0,0.8);
+    border: 0;
+    color: white;
+    font-family: Arial;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.customercare-content section:nth-child(2) form input[type=submit]:hover
+{
+    background-color: rgba(0, 0, 0,0.5);
+}
+.customercare-content section:nth-child(2) div
+{
+    width: 55%;
+    color: rgb(83,83,83);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+.customercare-content section:nth-child(2) div p
+{
+    color: rgba(83,83,83,0.9);
+    font-family: Arial;
+    font-size: 17px;
+    text-align: center;
+    line-height: 20px;
+}
+.customercare-content section:nth-child(2) div p:nth-child(3)
+{
+    color: rgb(83,83,83);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 12%;
+}
+.questions
+{
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+.questions div:first-of-type    
+{
+    width: 100%;
+}
+.questions>div h2
+{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.questions>article
+{
+    width: 100%;
+    display: flex;
+    padding-top: 5%;
+}
+.questions>article span
+{
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 17px;
+}
